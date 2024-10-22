@@ -6,7 +6,6 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import { isString } from '@haixing_hu/type-detect';
 import { BoolRule, NumberRule, IntegerRule } from '@haixing_hu/common-validation-rule';
 
 /**
@@ -22,7 +21,7 @@ import { BoolRule, NumberRule, IntegerRule } from '@haixing_hu/common-validation
  * @author 胡海星
  */
 function convert(value) {
-  if (isString(value)) {
+  if ((typeof value === 'string') || (value instanceof String)) {
     if (BoolRule.isValid(value)) {
       return (value.trim().toLowerCase() === 'true');
     } else if (IntegerRule.isValid(value)) {
