@@ -1,6 +1,6 @@
 {
   "name": "@haixing_hu/config",
-  "version": "1.4.1",
+  "version": "1.0.0",
   "description": "A JavaScript library providing a global configuration object for Apps.",
   "author": "Haixing Hu (starfish.hu@gmail.com)",
   "license": "Apache-2.0",
