@@ -6,9 +6,9 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import clone from '@haixing_hu/clone';
-import { getProperty, setProperty, hasProperty } from '@haixing_hu/common-util';
-import { UPPER_UNDERSCORE, LOWER_UNDERSCORE } from '@haixing_hu/naming-style';
+import clone from '@qubit-ltd/clone';
+import { getProperty, setProperty, hasProperty } from '@qubit-ltd/common-util';
+import { UPPER_UNDERSCORE, LOWER_UNDERSCORE } from '@qubit-ltd/naming-style';
 import convert from './impl/convert';
 
 /**
