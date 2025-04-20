@@ -7,8 +7,8 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 import clone from '@qubit-ltd/clone';
-import { getProperty, setProperty, hasProperty } from '@qubit-ltd/common-util';
-import { UPPER_UNDERSCORE, LOWER_UNDERSCORE } from '@qubit-ltd/naming-style';
+import { getProperty, hasProperty, setProperty } from '@qubit-ltd/common-util';
+import { LOWER_UNDERSCORE, UPPER_UNDERSCORE } from '@qubit-ltd/naming-style';
 import convert from './impl/convert';
 
 /**
